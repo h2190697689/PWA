@@ -11,9 +11,10 @@
 1. Web App Manifest
 2. Service Worker
 3. Cache API 缓存
-4. Push&Notification 推送与通知
-5. Background Sync 后台同步
-6. 响应式设计
+4. App Shell – 先显示APP的主结构，再填充主数据，更快显示更好体验
+5. Push&Notification 推送与通知
+6. Background Sync 后台同步
+7. 响应式设计
 
 ## 解决问题
 1. 显著提高应用加载速度
@@ -28,7 +29,7 @@
 ```
 {
 	"short_name": "Manifest Sample",
-	"name: "Web Application Manifest Sample",
+	"name": "Web Application Manifest Sample",
 	"icons": [{
 		"src": "launcher-icon-2x.png",
 		"sizes": "96x96",
